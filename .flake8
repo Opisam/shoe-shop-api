@@ -1,0 +1,15 @@
+[flake8]
+max-line-length = 119
+extend-ignore = E203
+exclude =
+    .git,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist,
+    .venv
+per-file-ignores =
+    # star imports in settings are standard
+    config/settings/local.py: F403, F401
+    config/settings/production.py: F403, F401
