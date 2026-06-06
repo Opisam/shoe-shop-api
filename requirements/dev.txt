@@ -1,0 +1,14 @@
+-r base.txt
+
+pytest
+pytest-django
+pytest-cov
+
+factory-boy
+faker
+
+black
+isort
+flake8
+
+pre-commit
